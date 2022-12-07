@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent ],
-  bootstrap:    [ AppComponent ]
+  declarations: [AppComponent, HelloComponent],
+  imports: [BrowserModule, FormsModule],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
